@@ -2,7 +2,6 @@ name: Story
 description: "A story as a user-centered piece of work that will make up many discrete tasks. Not every piece of work can be described this way."
 projects: ["mind-of-my-own/5"]
 type: Story
-status: "Backlog"
 body:
   - type: markdown
     attributes:

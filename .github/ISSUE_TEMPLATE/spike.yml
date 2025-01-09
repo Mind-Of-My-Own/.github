@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         What thing are you researching
-  - type: textarea
+  - type: input
     id: spike-problem-domain
     validations:
       required: true
@@ -15,8 +15,11 @@ body:
       label: Spike problem
       description: "What is the problem domain you are researching?"
       placeholder: "What is the problem domain you are researching?"
-  - type: input
+  - type: textarea
+    id: spike-outcome
+    validations:
+      required: true
     attributes:
-      label: Timebox days
-      description: How many days do you want to invest in solving the problem
-    id: Timebox
+      label: Spike Outcome
+      description: "What is the outcome of the spike? What things do we need to know to call this spike complete?"
+      placeholder: "What is the outcome of the spike? What things do we need to know to call this spike complete?"
