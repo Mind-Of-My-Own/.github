@@ -1,7 +1,7 @@
 name: Theme
 description: "Largest unit of work - can have many epics. Represents multi-sprint/feature piece of work"
 projects: ["mind-of-my-own/5"]
-type: Task
+type: Theme
 body:
   - type: textarea
     id: theme-goal
