@@ -9,5 +9,5 @@ body:
       required: true
     attributes:
       label: Theme Goal
-      description: "What is the high level goal of this Theme?"
+      description: "What is the high level goal of this Theme, give us quick description?"
       placeholder: "What is the high level goal of this Theme?"
