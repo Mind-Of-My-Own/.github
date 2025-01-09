@@ -1,0 +1,9 @@
+name: Task
+description: "Create a new task"
+projects: ["mind-of-my-own/5"]
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What is this task

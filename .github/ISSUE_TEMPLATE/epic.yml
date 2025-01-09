@@ -1,0 +1,9 @@
+name: Epic
+description: "A ticket to trace a piece of work which is larger in scope than a discrete piece of work. We should be able to use it to track many other tickets, to achieve the epics goal."
+projects: ["mind-of-my-own/5"]
+type: Epic
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the high level goals of this work

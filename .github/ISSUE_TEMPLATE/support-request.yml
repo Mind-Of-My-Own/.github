@@ -1,0 +1,9 @@
+name: Support Request
+description: "Track larger features or initiatives"
+projects: ["mind-of-my-own/5"]
+type: Support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the high level goals of this work

@@ -1,0 +1,9 @@
+name: Spike
+description: "Explore and gather information"
+projects: ["mind-of-my-own/5"]
+type: Spike
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What thing are you researching
