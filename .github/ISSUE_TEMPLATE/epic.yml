@@ -3,7 +3,11 @@ description: "A ticket to trace a piece of work which is larger in scope than a 
 projects: ["mind-of-my-own/5"]
 type: Epic
 body:
-  - type: markdown
+  - type: textarea
+    id: epic-goal
+    validations:
+      required: true
     attributes:
-      value: |
-        Please fill out the high level goals of this work
+      label: Epic Goal
+      description: "What is the high level goal of this epic?"
+      placeholder: "What is the high level goal of this epic?"
