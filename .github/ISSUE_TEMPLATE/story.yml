@@ -1,0 +1,19 @@
+name: Story
+description: "A story as a user-centered piece of work that will make up many discrete tasks. Not every piece of work can be described this way."
+projects: ["mind-of-my-own/5"]
+type: Story
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this to describe a user centered feature which might make up many tasks.
+        This should usually be focussed on a person trying to achieve something.
+        e.g. As a user I want to be able to log in so that I can access my account.
+  - type: textarea
+    id: story-goal
+    validations:
+      required: true
+    attributes:
+      label: Story Goal
+      description: "What is the high level goal of this Story, give us quick description?"
+      placeholder: "What is the high level goal of this Story?"

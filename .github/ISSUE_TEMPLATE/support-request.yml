@@ -6,4 +6,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the high level goals of this work
+        Please provide information about the support request.
+  - type: textarea
+    id: support-request
+    validations:
+      required: true
+    attributes:
+      label: Support Request
+      description: "What is the support request?"
+      placeholder: "What is the support request?"
+  - type: checkboxes
+    attributes:
+      label: Do we have the user's permission to access their account and view their data?
+      options:
+        - label: Yes/No
+          required: false

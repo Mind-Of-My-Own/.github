@@ -7,3 +7,22 @@ body:
     attributes:
       value: |
         What is this task
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Task Description
+      description: "What is the output that you want to achieve?"
+      placeholder: "What is the output that you want to achieve?"
+  - type: textarea
+    id: acceptance-criteria
+    validations:
+      required: true
+    attributes:
+      label: Acceptance Criteria
+      description: "What are the acceptance criteria for this task?"
+      placeholder: |
+        - [ ] Acceptance criteria 1
+        - [ ] Acceptance criteria 2
+        - [ ] Acceptance criteria 3
