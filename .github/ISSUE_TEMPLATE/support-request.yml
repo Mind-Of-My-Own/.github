@@ -15,9 +15,15 @@ body:
       label: Support Request
       description: "What is the support request?"
       placeholder: "What is the support request?"
+  - type: input
+    id: existing-link
+    attributes:
+      label: Existing Work link
+      description: "Do you have a link to a time when it's been done in the past?"
+      placeholder: "Ticket link"
   - type: checkboxes
     attributes:
       label: Do we have the user's permission to access their account and view their data?
       options:
-        - label: Yes/No
+        - label: Yes
           required: false
