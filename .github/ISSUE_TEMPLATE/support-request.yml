@@ -25,5 +25,5 @@ body:
     attributes:
       label: Do we have the user's permission to access their account and view their data?
       options:
-        - label: Yes
+        - label: "Yes"
           required: false
