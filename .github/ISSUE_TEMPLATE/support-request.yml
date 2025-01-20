@@ -18,8 +18,8 @@ body:
   - type: input
     id: existing-link
     attributes:
-      label: Existing Work link
-      description: "Do you have a link to a time when it's been done in the past?"
+      label: Please add an example of similar task
+      description: "Do you have a link to a time when it's been done in the past? e.g. trello or github link"
       placeholder: "Ticket link"
   - type: checkboxes
     attributes:
