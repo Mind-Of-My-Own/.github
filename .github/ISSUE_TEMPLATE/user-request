@@ -1,0 +1,62 @@
+  name: User Feature Request
+  description: "A ticket to refine user feedback requests into actionable tasks"
+  projects: ["mind-of-my-own/6"]
+  type: "User Feature Request"
+  body:
+    - type: input
+      id: feature-owner
+      attributes:
+        label: "Mind of My Own Feature Owner"
+        placeholder: "Mind of My Own team member responsible for this feature request"
+      validations:
+        required: true
+
+    - type: input
+      id: customer-names
+      attributes:
+        label: "Customer Name(s)"
+        placeholder: "e.g. Local Authority Name"
+      validations:
+        required: true
+
+    - type: input
+      id: customer-contact-names
+      attributes:
+        label: "Customer Contact Name(s)"
+      validations:
+        required: false
+
+    - type: textarea
+      id: feature-requested
+      attributes:
+        label: "Feature Change Requested"
+        description: "Describe the specific feature change being requested."
+        placeholder: "e.g., Add liver to the list of favourite foods in Express"
+      validations:
+        required: true
+
+    - type: textarea
+      id: problem-to-solve
+      attributes:
+        label: "Problem to Solve"
+        description: "Explain the problem the customer is facing that this feature would address."
+        placeholder: "e.g., Users find the current interface too bright, causing eye strain during extended use."
+      validations:
+        required: true
+
+    - type: input
+      id: users-affected
+      attributes:
+        label: "Number of Users Affected"
+        placeholder: "e.g. is this one person reporting an issue or multiple local authorities?"
+      validations:
+        required: true
+
+    - type: textarea
+      id: additional-info
+      attributes:
+        label: "Additional Information"
+        description: "Provide any other relevant information"
+        placeholder: "e.g., This feature has been co-produced with the user community and validated through surveys."
+      validations:
+        required: false
